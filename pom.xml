@@ -36,6 +36,17 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>gcloud-maven-plugin</artifactId>
+                <version>2.0.9.120.v20160803</version>
+            </plugin>
+        </plugins>
+    </build>
+
+
 </project>
 
 

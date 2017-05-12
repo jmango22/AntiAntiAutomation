@@ -39,6 +39,7 @@ public class MailHandlerServlet extends HttpServlet {
             String text = doc.body().text();
             String html = doc.body().html();
 
+            log.info("Recieved at: "+time.toString());
             log.info("Sender email: "+sender.toString());
             log.info("Sender name: "+message.getFrom()[0].toString());
             log.info("Message subject: "+subject);
