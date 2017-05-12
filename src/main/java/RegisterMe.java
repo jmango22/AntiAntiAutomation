@@ -3,11 +3,9 @@
  */
 
 import com.gargoylesoftware.htmlunit.WebClient;
-import com.gargoylesoftware.htmlunit.html.HtmlForm;
 import com.gargoylesoftware.htmlunit.html.HtmlInput;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.html.HtmlSubmitInput;
-import com.google.appengine.repackaged.com.google.common.html.types.Html;
 
 import java.io.IOException;
 import java.util.logging.Logger;

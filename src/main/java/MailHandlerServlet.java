@@ -43,8 +43,8 @@ public class MailHandlerServlet extends HttpServlet {
             log.info("Sender name: "+message.getFrom()[0].toString());
             log.info("Message subject: "+subject);
             log.info("Sent to email: "+email.toString());
-            log.info("Message")
-            log.info("Message to: "+);
+            log.info("Message html: "+html);
+            log.info("Message text: "+text);
 
             RegisterMe registerMe = new RegisterMe();
             registerMe.activate(sender.toString(), message.getFrom()[0].toString(), email.toString(), text, html);
